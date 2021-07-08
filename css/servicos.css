@@ -1,0 +1,177 @@
+/* Banner */
+
+.banner_servicos {
+  padding-top: 10px;
+  width: 100%;
+  height: auto;
+  background: url("../arquivos case 2/banner_servicos.png") no-repeat top;
+}
+
+.banner_servicos h1 {
+  text-align: center;
+  padding-right: 80px;
+  padding-top: 80px;
+  color: #000;
+  line-height: 50px;
+  font-size: 42px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+}
+
+.banner_servicos h2 {
+  text-align: center;
+  padding-right: 80px;
+  padding-top: 30px;
+  color: #000;
+  line-height: 25px;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-bottom: 100px;
+}
+
+.explicativo_servicos {
+  padding-top: 90px;
+}
+
+.explicativo_servicos p {
+  text-align: center;
+  padding-left: 300px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  line-height: 35px;
+  padding-top: 20px;
+  color: #525252;
+}
+
+/* Texto - Imagem */
+
+.imagem_texto {
+  margin-bottom: 200px;
+}
+
+.imagem_texto p {
+  display: inline-block;
+  margin-left: 100px;
+  width: 50%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  line-height: 35px;
+  color: #525252;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.dentro_imagem {
+  /* display: inline-block; */
+  text-align: center;
+  width: 20%;
+  margin-left: 400px;
+  float: left;
+}
+
+.dentro_texto {
+  display: inline-block;
+  text-align: left;
+  width: 40%;
+}
+
+.dentro_imagem img {
+  width: 100%;
+  height: auto;
+}
+
+/* Atendimentos */
+
+.lista p {
+  line-height: 30px;
+  padding: 10px 0;
+}
+
+.esquerda_servicos {
+  padding-left: 70px;
+  display: inline-block;
+  width: 30%;
+  height: 1500px;
+  background: #b8772824;
+  margin-left: 50px;
+  position: relative;
+  border-radius: 35px 0px 0px 35px;
+  font-size: 18px;
+  color: #525252;
+}
+
+.direita_servicos {
+  padding-left: 70px;
+  padding-right: 70px;
+  display: inline-block;
+  width: 30%;
+  height: 1500px;
+  background: #b8772824;
+  margin-right: 50px;
+  position: relative;
+  border-radius: 0px 35px 35px 0px;
+  position: absolute;
+  font-size: 18px;
+  color: #525252;
+}
+
+.esquerda_servicos ul li,
+.direita_servicos ul li {
+  list-style: none;
+  background-image: url("../arquivos case 2/folha-listas.png");
+  background-repeat: no-repeat;
+  background-position: 0px;
+  background-size: 40px;
+  padding-left: 40px;
+}
+
+.esquerda_servicos h3,
+.direita_servicos h3 {
+  font-size: 24px;
+  color: #4f6900;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Imagens do consultorio */
+
+.imagems_consultorio div {
+  padding-top: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  width: 20%;
+  height: auto;
+  padding-bottom: 15px;
+}
+
+.imagems_consultorio h2 {
+  font-size: 33px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #4f6900;
+}
+
+.imagems_consultorio h4 {
+  text-align: center;
+  color: #6d5306;
+  font-size: 17px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.slides {
+  padding-bottom: 100px;
+}
+
+.slides ul {
+  padding-top: 50px;
+}
+
+.slides img {
+  border-radius: 20px;
+}

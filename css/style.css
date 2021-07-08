@@ -100,6 +100,7 @@
 
 .header_menu a {
   color: #4f6900;
+  font-weight: 500;
 }
 
 .header_menu ul li.ativo {
@@ -227,6 +228,7 @@
   padding-left: 70px;
   display: inline-block;
   width: 30%;
+  height: 320px;
   background: #b8772824;
   margin-left: 50px;
   position: relative;
@@ -237,6 +239,7 @@
   padding-left: 70px;
   display: inline-block;
   width: 30%;
+  height: 320px;
   background: #b8772824;
   margin-right: 50px;
   position: relative;
@@ -261,6 +264,7 @@
   text-align: center;
   width: 15%;
   height: auto;
+  padding-top: 30px;
   /* background-color: #4f6900;
   border-radius: 20px; */
 }
