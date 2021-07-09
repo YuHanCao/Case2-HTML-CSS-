@@ -56,13 +56,13 @@
     <div class="entradas">
         <form action="action.php" method="post" name="form">
             <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" class="_nome" required>
+            <input type="text" class="text-line" id="nome" name="nome" required>
             <br>
             <label for="email">E-mail:</label>
-            <input type="text" id="email" name="email" class="_email" required placeholder="nome@dominio.com">
+            <input type="text" class="text-line" id="email" name="email" required placeholder="nome@dominio.com">
             <br>
             <label for="celular">Celular:</label>
-            <input type="text" id="celular" name="celular" class="_celular" required placeholder="(__) _____-____">
+            <input type="text" class="text-line" id="celular" name="celular" required placeholder="(__) _____-____">
             <br>
             <label for="convenios">Convênio:</label>
             <select name="convenios" id="convenios" required>
@@ -79,7 +79,7 @@
                 <option value="Particular">Particular</option>
             </select>
             <label for="mensagem">Mensagem:</label>
-            <textarea cols="40" rows="10" id="mensagem" name="mensagem" placeholder="Como podemos ajudar?" required=""></textarea>
+            <textarea class="text-line" cols="40" rows="10" id="mensagem" name="mensagem" placeholder="Como podemos ajudar?" required></textarea>
             <p class="nota">Ao clicar em "Enviar", você concorda que leu e concordou com a <a href="politica.html" style="font-weight:bolder;text-decoration: underline">política de privacidade do site</a>, bem como o uso dos cookies.</p>
             <a href="envio-sucedido.html"><button type="submit">ENVIAR</button></a>
         </form>

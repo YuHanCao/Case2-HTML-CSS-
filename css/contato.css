@@ -57,11 +57,12 @@
 .entradas input,
 .entradas textarea {
   width: 70%;
-  border: 0;
+  /* border: 0; */
   resize: none;
 }
 
 .entradas select {
+  border-radius: 12px;
   width: 70%;
 }
 
@@ -70,7 +71,6 @@
 .entradas textarea,
 .entradas select {
   margin-bottom: 15px;
-  border-radius: 12px;
   padding: 6px 0;
 }
 
@@ -85,6 +85,25 @@
   background-color: #6f9202;
   margin-bottom: 40px;
   margin-top: 15px;
+}
+
+.entradas input:focus,
+.entradas textarea:focus {
+  border-bottom: solid #6f9202 1px;
+  opacity: 2;
+}
+
+.text-line {
+  background-color: transparent;
+  color: #525252;
+  outline: none;
+  outline-style: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid #525252 1px;
+  padding: 3px 10px;
+  opacity: 0.3;
 }
 
 /* Nota */
