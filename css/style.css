@@ -103,6 +103,10 @@
   font-weight: 500;
 }
 
+.header_menu ul li:hover {
+  background-color: #d6d2d2;
+}
+
 .header_menu ul li.ativo {
   background-color: #324300;
 }
