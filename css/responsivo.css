@@ -1,0 +1,248 @@
+/* Home */
+
+@media only screen and (min-width: 1201px) and (max-width: 1284px) {
+  .btn div {
+    width: 40%;
+  }
+
+  .atendimento h2::after,
+  .atendimento h2::before {
+    content: " -------------------------- ";
+  }
+
+  .explicativo {
+    background-size: 350px;
+  }
+
+  .lista {
+    padding-left: 20%;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  .btn div {
+    width: 60%;
+  }
+
+  .atendimento h2::after,
+  .atendimento h2::before {
+    content: " -------------- ";
+  }
+
+  .explicativo {
+    background-size: 300px;
+  }
+
+  .convenios h2::after {
+    width: 108%;
+  }
+
+  .solicitacao div {
+    width: 18%;
+  }
+
+  .atendimento h2 {
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .btn div {
+    width: 65%;
+  }
+
+  .atendimento h2::after,
+  .atendimento h2::before {
+    content: " ------------- ";
+  }
+
+  .explicativo {
+    background-size: 280px;
+  }
+
+  .atendimento h2 {
+    padding-top: 30px;
+  }
+
+  .convenios h2::after {
+    width: 110%;
+  }
+
+  .solicitacao div {
+    width: 18%;
+  }
+
+  .footer p {
+    font-size: 17px;
+  }
+}
+
+/* Serviços */
+
+@media only screen and (min-width: 1201px) and (max-width: 1284px) {
+  .imagem_texto {
+    margin-bottom: 30px;
+  }
+
+  .imagem_texto p {
+    margin-left: 50px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .dentro_imagem {
+    width: 30%;
+    margin-left: 280px;
+  }
+
+  .esquerda_servicos,
+  .direita_servicos {
+    height: 1900px;
+  }
+
+  .direita_servicos {
+    padding-right: 20px;
+  }
+
+  .esquerda_servicos {
+    padding-left: 20px;
+  }
+
+  .imagems_consultorio div {
+    padding-top: 1600px;
+    width: 30%;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  .explicativo_servicos {
+    padding-bottom: 40px;
+  }
+
+  .imagem_texto {
+    margin-bottom: 30px;
+  }
+
+  .imagem_texto p {
+    margin-left: 50px;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 0;
+  }
+
+  .dentro_imagem {
+    width: 30%;
+    margin-left: 280px;
+  }
+
+  .esquerda_servicos,
+  .direita_servicos {
+    height: 2200px;
+  }
+
+  .direita_servicos {
+    padding-right: 20px;
+  }
+
+  .esquerda_servicos {
+    padding-left: 20px;
+  }
+
+  .imagems_consultorio div {
+    padding-top: 1900px;
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .explicativo_servicos {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .imagem_texto {
+    margin-bottom: 30px;
+  }
+
+  .imagem_texto p {
+    margin-left: 50px;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 0;
+  }
+
+  .dentro_imagem {
+    width: 40%;
+    margin-left: 150px;
+  }
+
+  .esquerda_servicos,
+  .direita_servicos {
+    height: 2300px;
+  }
+
+  .direita_servicos {
+    padding-right: 20px;
+  }
+
+  .esquerda_servicos {
+    padding-left: 20px;
+  }
+
+  .imagems_consultorio div {
+    padding-top: 2000px;
+    width: 40%;
+  }
+
+  .lista h3 {
+    font-size: 22px;
+  }
+}
+
+/* Contato */
+
+@media only screen and (min-width: 1201px) and (max-width: 1284px) {
+  .descricao h2::after {
+    width: 70%;
+  }
+
+  .entradas button {
+    width: 8%;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  .descricao h2::after {
+    width: 80%;
+  }
+
+  .entradas button {
+    width: 10%;
+  }
+
+  .nota {
+    margin-right: 25%;
+  }
+
+  .informacoes {
+    margin-right: 25%;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .descricao h2::after {
+    width: 80%;
+  }
+
+  .entradas button {
+    width: 12%;
+  }
+
+  .nota {
+    margin-right: 25%;
+  }
+
+  .informacoes {
+    margin-right: 25%;
+  }
+}
